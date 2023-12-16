@@ -1,0 +1,72 @@
+.container_for_section{
+    width: 1897px;
+    padding-top: 110px;
+    background: url("../img/herowave.png") 0 0 / 1920px 900px no-repeat ;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 1920px;
+    height: 1000px;
+    margin-left: 430px;
+}
+.subtitle{
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.title_25students{
+    max-width: 542px;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 137.931% */
+    letter-spacing: 0.2px;
+}
+.text{
+    max-width: 408px;
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+}
+.button_learn_more{
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--light-gray-2, #ECECEC);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 157.143% */
+    letter-spacing: 0.2px;
+    margin-top: 4px;
+}
+.get_quote_now{
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.get_quote_now:hover{
+    color: white;
+    padding: 15px 40px;
+}

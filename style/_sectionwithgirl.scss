@@ -1,0 +1,56 @@
+.wrapper{
+    display: flex;
+    max-width: 1045px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 240px;
+}
+.girl_text{
+    display: flex;
+    max-width: 381px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    flex-shrink: 0;
+}
+.title_for_section_with_gril{
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    position: relative;
+    &::before{
+        content: "";
+    background: var(--danger-color, #E74040);
+    position: absolute;
+    width: 94px;
+    height: 7px;
+    bottom: 135px;
+    }
+}
+.text_for_section_with_gril{
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.button_girl{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.learn_more{
+    color: var(--primary-text-color, #8D5CF6);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}

@@ -1,0 +1,78 @@
+.wraper_text_aline{
+    display: flex;
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 1044px;
+    gap: 80px;
+    flex-shrink: 0;
+}
+.comments_cards{
+    display: flex;
+    justify-content: center;
+    width: 970px;
+    margin: 0 auto;
+    align-items: flex-start;
+    gap: 30px;
+}
+.comments_card{
+    display: flex;
+    width: 348px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    background: var(--light-background-color, #FFF);
+}
+.comments_padding{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+}
+.sub_title_text_comments{
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    gap: 10px;
+}
+.div_alignment_comments_img_and_p{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 15px;
+}
+.comments_text{
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+.regina_miles{
+    color: var(--primary-text-color, #8D5CF6);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+.desinger{
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.2px;
+}
+.regina_miles_and_designer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

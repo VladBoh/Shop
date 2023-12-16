@@ -1,0 +1,61 @@
+.container_for_send_section{
+    display: flex;
+    width: 1050px;
+    padding: 160px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+.sub_title_text_send{
+    display: flex;
+    width: 691px;
+    padding-top: 240px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.wrapper_for_input_field{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;
+}
+.send_button{
+    display: flex;
+    width: 117px;
+    height: 58px;
+    padding: 15px 22.5px;
+    flex-shrink: 0;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E6E6E6;
+    background: var(--primary-color, #8D5CF6);
+    color: var(--light-text-color, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.2px;
+    transition: 0.3s;
+        &.send_button:hover{
+        transition: 0.3s;
+        background: rgb(255, 0, 0);
+        border: 1px black;
+        cursor: pointer;
+    }
+}
+.enter_email{
+    border: none;
+    padding: 15px 591px 15px 20px;
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.2px;
+}
